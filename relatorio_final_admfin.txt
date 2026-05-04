@@ -1,0 +1,21 @@
+========================================================
+      UNIVERSIDADE FEDERAL DE MINAS GERAIS (UFMG)
+          Sistemas de Informação - CAD 167
+             Prof: Bruno Pérez Ferreira
+========================================================
+Data de Execução: 03/05/2026 21:17
+
+--- DADOS MACROECONÔMICOS CAPTURADOS ---
+Inflação (IPCA Acumulado 12m): 4.14%
+
+--- MÉTRICAS DE RETORNO ---
+Preço Justo (Valor Presente): R$ 927.9
+YTM Nominal: 12.0%
+YTM Real (Descontada Inflação): 7.55%
+
+--- MÉTRICAS DE RISCO ---
+Duration de Macaulay: 4.1355 anos
+Duration Modificada: 369.2377%
+Convexidade: 18.4775
+========================================================
+Aplicação concluída. Verifique também o gráfico gerado.
