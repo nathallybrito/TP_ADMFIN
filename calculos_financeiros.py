@@ -19,10 +19,13 @@ def calcular_preco_titulo_cupom(valor_face, taxa_cupom_anual, ytm, periodos):
     - ytm: Yield to Maturity (Rentabilidade até o vencimento) em decimal.
     - periodos: Prazo do título (anos).
     """
+    # CORREÇÃO 1: Indentação aplicada corretamente
     if periodos <= 0:
-    raise ValueError("O prazo do título deve ser maior que zero.")
-    if preco <= 0:
-    raise ValueError("O preço do título deve ser positivo.")
+        raise ValueError("O prazo do título deve ser maior que zero.")
+    
+    # CORREÇÃO 2: A validação do 'preco' foi removida daqui, pois o preço 
+    # é o que esta função vai calcular (não é um dado de entrada).
+
     cupom = valor_face * taxa_cupom_anual
     
     # Cria um vetor de tempo: [1, 2, ..., N]
